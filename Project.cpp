@@ -1,4 +1,3 @@
-// Example C++ syntax
 #include <iostream>
 using namespace std;
 
