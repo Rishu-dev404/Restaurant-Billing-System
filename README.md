@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/Language-C++-58a6ff?style=flat)
 ![Type](https://img.shields.io/badge/Type-CLI%20App-3fb950?style=flat)
-![Semester](https://img.shields.io/badge/Semester-1-e3b341?style=flat)
+![Semester](https://img.shields.io/badge/Semester-2-e3b341?style=flat)
 ![Author](https://img.shields.io/badge/Author-Rishu--dev404-bc8cff?style=flat)
 
 > A command-line based Restaurant Billing System built in C++ — uses arrays, strings, functions, and control flow to manage orders and generate bills.
@@ -21,10 +21,10 @@
 ## How to Run
 ```bash
 # Compile
-g++ restaurant.cpp -o restaurant
+g++ Project.cpp -o Project
 
 # Run
-./restaurant
+./Project
 ```
 
 ---
@@ -32,7 +32,7 @@ g++ restaurant.cpp -o restaurant
 ## Project Structure
 ```
 restaurant-billing-system/
-└── restaurant.cpp    # Main source file
+└── Project.cpp    # Main source file
 ```
 
 ---
