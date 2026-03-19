@@ -10,6 +10,7 @@ float itemPrices[19] = {70, 150, 90, 30, 40, 60, 65, 65, 40, 80, 65, 40, 55, 70,
 void displayMenu() {
 
     cout << "       RESTAURANT MENU        " << endl;
+    cout << "==============================" << endl;
     for (int i = 0; i < 19; i++) {
         cout << i+1 << ". " << itemNames[i]
              << "\t\t Rs." << itemPrices[i] << endl;
