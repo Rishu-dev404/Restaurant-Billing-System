@@ -29,7 +29,8 @@ int main()
         cout << "       RESTAURANT MENU        " << endl;
         cout << "==============================" << endl;
         cout << "       1. View Menu           " << endl;
-        cout << "       2. Exit Menu           " << endl;
+        cout << "       2. Order Food          " << endl;
+        cout << "       3. Exit Menu           " << endl;
         cout << "==============================" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
