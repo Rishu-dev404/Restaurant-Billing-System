@@ -9,6 +9,7 @@ float itemPrices[19] = {70, 150, 90, 30, 40, 60, 65, 65, 40, 80, 65, 40, 55, 70,
 // Function to display menu
 void displayMenu() {
 
+    cout << "                              " << endl;
     cout << "       RESTAURANT MENU        " << endl;
     cout << "==============================" << endl;
     for (int i = 0; i < 19; i++) {
@@ -18,8 +19,30 @@ void displayMenu() {
     cout << "==============================" << endl;
 }
 
+
+
 int main()
 {
-    displayMenu();
+    int choice;
+    do {
+        cout << "                              " << endl;
+        cout << "       RESTAURANT MENU        " << endl;
+        cout << "==============================" << endl;
+        cout << "       1. View Menu           " << endl;
+        cout << "       2. Exit Menu           " << endl;
+        cout << "==============================" << endl;
+        cout << "Enter your choice: ";
+        cin >> choice;
+        switch (choice) {
+            case 1:
+                displayMenu();
+                break;
+            case 2:
+                cout << "Exiting the menu. Thank you!" << endl;
+                break;
+            default:
+                cout << "Invalid choice. Please try again." << endl;
+        }
+    } while (choice != 2);
     return 0;
 }
