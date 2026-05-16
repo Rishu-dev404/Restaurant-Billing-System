@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <iomanip>
 #include "function.h"
 using namespace std;
 int main(){
